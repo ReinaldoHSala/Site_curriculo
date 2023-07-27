@@ -1,0 +1,130 @@
+body{
+        font-size: 1em;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        background-color: white;
+        margin: 0;
+}
+
+#cabecalho {
+    background-color:  #00e3f7;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #area_menu {
+    padding: 10px;
+}
+
+#logo{
+    text-decoration: underline white;
+
+}
+
+#cabecalho a:link,#cabecalho a:visited{
+    color: #fff;  
+    padding: 8px 12px;
+}
+
+#cabecalho a:hover {
+    color: #00e3f7;
+    background: #FFF;
+    text-decoration: none;
+}
+
+#sobre-mim{
+    padding-top: 2px;
+    padding-left: 20px;
+    width: 45.5%;
+    padding-right: 30px;
+    float: left;
+    background-color: #def0f1;
+    margin: 15px 7px 15px 15px;
+    border-radius: 10px;
+}
+
+#lateral{
+    padding-top: 2px;
+    padding-left: 7px;
+    width: 45.5%;
+    padding-right: 20px;
+    float: right;
+    background-color: #def0f1;
+    margin: 15px 15px 15px 7px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+#titulo2{
+    background-color: #def0f1;
+    width: 100%;
+    text-align: center;
+}
+
+#experiencias{
+   text-align: center;
+   width: 100%;
+}
+
+#cursos{
+    width: 100%;
+    float: bottom;
+    background-color: #def0f1;
+    border-radius: 10px;
+    padding-bottom: 10px; 
+    clear: both;
+}
+
+#alinhamento_cursos{
+    padding-left: 17%;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+a:link, a:visited{
+    color: #00e3f7;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+}
+
+img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    shape-outside: circle();
+    clip-path: circle();
+}
+
+h2{
+    background-color: #def0f1;
+    width: 100%;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.aba{
+    display: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+

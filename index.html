@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Reinaldo</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+       document.addEventListener("DOMContentLoaded", function() {
+        var aba1 = document.getElementById("aba1");
+    var aba2 = document.getElementById("aba2");
+    var aba3 = document.getElementById("aba3");
+
+    var nomeAba1 = "Lar Plásticos";
+    var nomeAba2 = "DEKRA";
+    var nomeAba3 = "Mostrar todos";
+
+    aba1.addEventListener("click", function() {
+    if (conteudoAba1.style.display === "none") {
+        conteudoAba1.style.display = "block";
+        aba1.textContent = "Esconder Experiência";
+    } else {
+        conteudoAba1.style.display = "none";
+        aba1.textContent = nomeAba1;
+    }
+    });
+
+    aba2.addEventListener("click", function() {
+    if (conteudoAba2.style.display === "none") {
+        conteudoAba2.style.display = "block";
+        aba2.textContent = "Esconder experiência";
+    } else {
+        conteudoAba2.style.display = "none";
+        aba2.textContent = nomeAba2;
+    }
+    });
+
+    aba3.addEventListener("click", function() {
+    if (conteudoAba3.style.display === "none") {
+        conteudoAba3.style.display = "block";
+        aba3.textContent = "Esconder cursos";
+    } else {
+        conteudoAba3.style.display = "none";
+        aba3.textContent = nomeAba3;
+    }
+    });
+
+            });
+    </script>
+
+</head>
+<body>
+    
+    <div id="cabecalho">
+        <!-- área principal do cabeçalho-->
+        
+        <div id="logo">
+            <h1>Currículo Reinaldo</h1>
+        </div>
+
+        <div id="area_menu">
+            <!--Área do Menu-->
+            <a href="https://www.linkedin.com/in/reinaldo-sala-277aa3226">Linkedin</a>
+            <a href="https://github.com/ReinaldoHSala">Github</a>
+            <a href="mailto:reinaldohsala73@gmail.com">E-mail</a>
+            <a href="https://wa.me/5511961762959">Whatsapp</a>
+
+        </div>
+    </div>
+
+    <div id="sobre-mim">
+
+        <h2 id="titulo1"><strong>Sobre mim</strong></h2>
+
+        <div><img src="Imagem perfil.jpg" alt="">
+            <p>Meu nome é Reinaldo Henrique Sala, tenho 18 anos de idade, sou apaixonado
+            por Tecnologia, não é atoa que estou cursando ADS (Análise e Desenvolvimento de Sistemas) na USF, o qual estou cursando o segundo semestre.
+            Sempre tive interesse por tecnlogia, desde quando era criança até o presente momento tenho muito contato e muita facilidade quando se trata de
+            inovação e do mundo virtual. <br> <br>
+            Aos meus 16 anos eu comecei a ter interesse em seguir carreira com TI, mais especificamente trabalhando com programação, e desde Fevereiro de 2022 venho estudando para que 
+            esse objetivo seja alcançado, mas não me prendo a estudar apenas sobre programação, já estudei sobre produtos, infraestrutura, redes, até mesmo sobre edição de vídeo. <br> <br>
+            Atualmente possuo uma variedade de cursos completos, tanto cursos oferecidos pela DEKRA, empresa que atualmente trabalho, como também cursos da Udemy. <br> <br>
+            </p>
+        </div>
+
+    </div>
+    
+    <div id="lateral">
+        <!--Área para experiências profissionais-->
+        <h2 id="titulo2">Experiências Profissionais</h2>
+            <hr>
+        
+            <div id="experiencias">
+            
+                <a href="#" id="aba1">Lar Plásticos</a>
+                
+                    <div id="conteudoAba1" class="aba">
+                        <p><strong>Jovem aprendiz - TI 12/21 - 06/22</strong></p>
+                        <p>Experiência em redes no geral, troca e manutenção de toner
+                        e fotocondutores de impressoras, identificação de problemas relacionados a impressora, 
+                        suporte ao usuário em situações rotineiras, verificação de antivírus, 
+                        montagem de uma infraestrutura em um prédio comercial.
+                        </p>
+                    </div>
+                <hr>
+                
+                <a href="#" id="aba2">DEKRA</a>
+                
+                    <div id="conteudoAba2" class="aba">
+                        <p><strong>Jovem aprendiz - Tester 11/22 - Atualmente</strong></p>
+                        <p>Experiência em melhoria e criação de produtos, especificações de melhorias de sistemas, especificações de Bugs, 
+                        design e programação para amostragens em briefings para a TI, censura de dados confidenciais em prévias públicas de produtos, 
+                        testes de sistemas envolvendo regras, normas, funcionalidades, melhorias e correção de Bugs.
+                        </p>
+                    </div>
+                <hr>
+                <!--Área para cursos complementares-->
+                    <div id="cursos">
+                        <h2 id="titulo2">Cursos Complementares</h2>
+                    <hr>
+                <a href="#" id="aba3">Mostrar todos</a>
+
+                <div id="conteudoAba3" class="aba">
+                    <div id="alinhamento_cursos">
+                        <li>Pacote Office iniciante</li>
+                        <li>Edição de vídeo – intermediário/avançado – SENAC</li>
+                        <li>Concluído Formação em Redes de Computadores - Módulo 1</li>
+                        <li>Concluído HOUR OF CODE</li>
+                        <li>Concluído Programação para Iniciantes Usando Portugol Studio</li>
+                        <li>Concluído Programação em C do básico ao avançado</li>
+                        <li>Concluído Programação em Python do básico ao avançado</li>
+                        <li>Concluído Programação em JavaScript em 7 dias</li>
+                        <li>Concluído Business Basics for Projects</li>
+                        <li>Concluído Sustentability at DEKRA</li>
+                        <li>Concluído Compliance</li>
+                        <li>Concluído Data Protection at DEKRA</li>
+                        <li>Concluído Formação Atendimento e Administrativo</li>
+                        <li>Concluído Information Security at DEKRA</li>
+                        <li>Concluído ITIL Problem Application on ServiceNow</li>
+                        <li>Concluído ITIL Problem Management Overview</li>
+                        <li>Concluído LGPD Lei Geral de Proteção de Dados Pessoais</li> 
+                        <li>Concluído Missão Inovar</li>
+                        <li>Concluído Segurança da Informação</li>
+                        <li>Cursando Programação Web Full-Stack com Python e Django</li>
+                        <li>Cursando C# Completo Programação Orientada a Objetos</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
